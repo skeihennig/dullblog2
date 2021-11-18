@@ -1,6 +1,5 @@
 const express = require("express");
 const server = express();
-const connstring = process.env.DATABASE_URL || dbURI;
 const PORT = process.env.PORT || 8080;
 server.set("port", PORT);
 
