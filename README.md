@@ -1,2 +1,0 @@
-# dullblog
-Workshop
