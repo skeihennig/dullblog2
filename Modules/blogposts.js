@@ -10,6 +10,7 @@ router.get("/blogposts", async function(req, res, next) {
 		res.status(200).json(data.rows).end();
 	}
 	catch(err) {
+		console.error(err);
 		next(err);
 	}
 });
